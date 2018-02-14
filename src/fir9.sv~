@@ -68,7 +68,7 @@ always_comb begin
 
 
     //compares the value of sum_reg to the value of thresh_reg
-    //and if greater outputs 1 and if less ouputs 0
+    //and if greater outputs one and if less ouputs 0
 	if (sum_reg < thresh_reg) 
 		y_reg = 0;
 	else 
